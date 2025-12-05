@@ -1,0 +1,83 @@
+https://chatgpt.com/
+https://platform.openai.com/
+https://platform.openai.com/settings/organization/api-keys 
+https://platform.openai.com/docs/guides/text
+
+composer require openai-php/laravel
+php artisan vendor:publish --provider="OpenAI\Laravel\ServiceProvider"
+
+
+Build AI Content Generation Project with Laravel 12, ChatGPT API
+
+==================== Check ChatGpt API in Postman =======================
+
+https://api.openai.com/v1/chat/completions
+
+Headers
+Content-Type = application/json
+Authorization = Bearer sk-proj-2pLGD_E.................
+
+
+
+
+Body>row
+
+{
+    "model": "gpt-4o-mini",
+    "store": true,
+    "messages": [
+      {"role": "user", "content": "what is the best ai application in 2025?"}
+    ]
+  }
+
+
+
+
+
+//////////////////// Image Generate Prompt /////////////////////////////
+Fantasy Landscape: "A breathtaking fantasy valley at sunset, with glowing bioluminescent plants,
+ towering crystal formations, and a serene river reflecting the vibrant sky. 
+The scene is bathed in warm orange and purple hues, with a distant dragon soaring gracefully, hyper-detailed, cinematic lighting, 4K resolution."
+
+Cyberpunk City: "A futuristic cyberpunk city at night, filled with neon signs in vibrant pink, blue, and green. 
+Skyscrapers with holographic advertisements tower over bustling streets, flying cars zoom above, and a light rain adds a reflective sheen. 
+Ultra-realistic, moody atmosphere, 8K detail."
+
+Steampunk Inventor: "A steampunk inventor in a cluttered workshop, wearing a leather apron and goggles, 
+surrounded by brass gears, steam-powered machines, and glowing vials. 
+The inventor holds a intricate mechanical bird, with soft sunlight streaming through a large window. 
+Vintage sepia tones, highly detailed, photorealistic."
+
+Surreal Dreamscape: "A surreal dreamscape where giant clocks melt over floating islands in a pastel-colored sky. 
+Fish swim through the air, and a lone figure in a flowing robe stands on a glass bridge. 
+Ethereal lighting, vibrant textures, Salvador Dalí-inspired, ultra-sharp."
+
+Medieval Knight: "A medieval knight in ornate silver armor, standing in a misty forest at dawn. 
+The knight holds a glowing sword, with intricate engravings visible. 
+A loyal horse stands in the background, and soft rays of light pierce through the trees. Epic, photorealistic, cinematic."
+
+Underwater City: "An underwater city built from coral and crystal, illuminated by glowing jellyfish-like lanterns. 
+Merfolk swim gracefully between domed structures, and colorful marine life thrives around. 
+The scene is vibrant, with deep blues and greens, hyper-detailed, National Geographic style."
+
+Post-Apocalyptic Survivor: "A rugged post-apocalyptic survivor in tattered clothing, standing atop a ruined skyscraper overlooking a deserted city reclaimed by nature. 
+Vines and trees grow through cracked concrete, with a stormy sky in the background. Gritty, cinematic, ultra-realistic."
+
+Magical Library: "An enchanted library with towering bookshelves that stretch into the clouds, floating books, and glowing runes etched into the walls. 
+A young wizard in a starry robe reads at a wooden desk, surrounded by sparkling motes of light. Warm, cozy, Studio Ghibli-inspired, 4K."
+
+Alien Planet: "An alien planet with two suns setting over a crimson desert, dotted with bizarre, spiky plants and glowing rocks. 
+A sleek, futuristic rover explores the terrain, leaving faint tracks. The sky is filled with swirling galaxies, hyper-detailed, sci-fi aesthetic."
+
+Victorian Masquerade: "A lavish Victorian masquerade ball in a grand ballroom, with guests in elaborate masks and gowns. 
+Chandeliers cast golden light, and a string quartet plays in the background.
+ The scene is opulent, with rich reds and golds, photorealistic, Bridgerton-inspired."
+
+ 
+
+
+
+
+
+
+ 
